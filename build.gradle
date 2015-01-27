@@ -1,5 +1,9 @@
 apply plugin: "java"
 apply plugin: "idea"
+apply plugin: 'maven'
+
+group = 'com.ecwid.consul'
+version = '0.1'
 
 repositories {
 	mavenCentral()
